@@ -1,7 +1,6 @@
 # Boost-CMake-Ubuntu-Linux
-This repository demonstrates how to set up a boost library in a Ubuntu machine and use the CMake as a build system generator.
+This repository demonstrates how to set up a boost library in a Ubuntu machine and use CMake as a build system generator.
 
-#CMake+Boost+Ubuntu+Linux
 # This repository demonstrates how to include and link boost library from cmake.
 
 Prerequisite:
@@ -15,5 +14,5 @@ if not,
 
 After these steps boost library headers will be installed on /usr/local/include and compiled libraries will be installed on /usr/local/lib directory.
 
-#Example
+# Example
 The example CMakeLists.txt contains the build instruction for including and linking the program_option component of boost.
