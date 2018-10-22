@@ -15,9 +15,5 @@ if not,
 
 After these steps boost library headers will be installed on /usr/local/include and compiled libraries will be installed on /usr/local/lib directory.
 
-##Boost headers only example
-CMakeList.txt
-
-#[[This is a simple multiline CMakeLists.txt comment.
-It shows how to write a CMake instructions for a C/C++ project that uses header only boost libraries
-]]
+#Example
+The example CMakeLists.txt contains the build instruction for including and linking the program_option component of boost.
