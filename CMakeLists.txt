@@ -1,6 +1,6 @@
 #CMakeLists.txt
 cmake_minimum_required (VERSION 3.7)
-project (Boost_regex_example)
+project (Boost_program_option_example)
 
 # Set default build type
 
