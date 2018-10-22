@@ -14,7 +14,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 #Boost related setup
 
-set(Boost_INCLUDE_DIR /usr/local/include/boost)
+set(Boost_INCLUDE_DIR /usr/local/include)
 set(Boost_LIBRARY_DIR /usr/local/lib)
 
 find_package(Boost 1.67 REQUIRED COMPONENTS regex)
