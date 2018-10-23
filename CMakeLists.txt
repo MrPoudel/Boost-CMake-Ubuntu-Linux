@@ -33,7 +33,7 @@ if(Boost_FOUND)
 	if(ENABLE_EXAMPLES)
 	
 	add_executable(boost_program_option examples/boost_program_option.cpp)
-        target_link_libraries( boost_program_option ${Boost_LIBRARIES} )
+       target_link_libraries( boost_program_option ${Boost_LIBRARIES} )
 	
 	endif()
 
