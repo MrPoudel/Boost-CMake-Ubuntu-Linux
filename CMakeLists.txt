@@ -2,7 +2,7 @@
 cmake_minimum_required (VERSION 3.7)
 project (Boost_program_option_example)
 
-# Set default build type
+#Set default build type
 
 if(NOT CMAKE_BUILD_TYPE)
     message(STATUS "CMAKE_BUILD_TYPE not given; setting to 'Debug'")
@@ -27,13 +27,13 @@ if(Boost_FOUND)
 	include_directories(${Boost_INCLUDE_DIR})
 	#ADD_DEFINITIONS("-DHAS_BOOST")
 
-    #Just for debugging purpose
+        #Just for debugging purpose
 	message(${Boost_INCLUDE_DIR})	
 
 	if(ENABLE_EXAMPLES)
 	
 	add_executable(boost_program_option examples/boost_program_option.cpp)
-    target_link_libraries( boost_program_option ${Boost_LIBRARIES} )
+        target_link_libraries( boost_program_option ${Boost_LIBRARIES} )
 	
 	endif()
 
