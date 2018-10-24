@@ -19,8 +19,8 @@ The example CMakeLists.txt contains the build instruction for including and link
 # Out-of-source build
 
 ```
-create a directory called build in projects's root directory
-navigate to the build directory 
-Turn ON ENABLE_EXAMPLES
-Make the project
+create a directory called build in projects's root directory: mkdir build
+navigate to the build directory : cd build
+Turn ON ENABLE_EXAMPLES: ccmake ..
+Make the project: make
 ```
