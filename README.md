@@ -17,7 +17,11 @@ After these steps boost library headers will be installed on /usr/local/include 
 # Example
 The example CMakeLists.txt contains the build instruction for including and linking the program_option component of boost.
 # Out-of-source build
+
+```
 create a directory called build in projects's root directory
 navigate to the build directory 
 Turn ON ENABLE_EXAMPLES
 Make the project
+
+```
