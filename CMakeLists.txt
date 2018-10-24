@@ -31,9 +31,12 @@ if(Boost_FOUND)
 	message(${Boost_INCLUDE_DIR})	
 
 	if(ENABLE_EXAMPLES)
+
+    #header only files doesnot need to be included
+	add_executable(header_only examples/header_only.cpp)
 	
 	add_executable(boost_program_option examples/boost_program_option.cpp)
-       target_link_libraries( boost_program_option ${Boost_LIBRARIES} )
+    target_link_libraries(boost_program_option ${Boost_LIBRARIES})
 	
 	endif()
 
