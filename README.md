@@ -23,5 +23,4 @@ create a directory called build in projects's root directory
 navigate to the build directory 
 Turn ON ENABLE_EXAMPLES
 Make the project
-
 ```
