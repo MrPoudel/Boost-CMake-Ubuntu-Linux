@@ -15,7 +15,8 @@ if not,
 After these steps boost library headers will be installed on /usr/local/include and compiled libraries will be installed on /usr/local/lib directory.
 
 # Example
-The example CMakeLists.txt contains the build instruction for including and linking the program_option component of boost.
+This project shows two examples using boost library. The first one, header_only.cpp needs header only boost library and the second one, boost_program_option.cpp needs a pre-compiled libboost_program_options library to be linked.
+
 # Out-of-source build
 
 ```
